@@ -3,7 +3,7 @@ from datetime import datetime
 from multiprocessing import Pool
 import multiprocessing as multi
 from rdkit import Chem, rdBase
-from rdkit.Chem import AllChem, Descriptors
+from rdkit.Chem import AllChem
 from rdkit.ML.Descriptors import MoleculeDescriptors
 rdBase.DisableLog('rdApp.warning')
 	
